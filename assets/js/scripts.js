@@ -36,7 +36,10 @@ $(window).load(function() {
 });
 
 /* Image Hover  - Add hover class on hover */
-$(document).ready(function(){
+$(document).ready(function () {
+
+    $.backstretch("../../ginassets/PhotoVueducondo.JPG");
+
     if (Modernizr.touch) {
         // show the close overlay button
         $(".close-overlay").removeClass("hidden");
